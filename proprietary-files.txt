@@ -137,11 +137,11 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|52006534d0
 # Charger - from redfin RQ2A.210505.00
 vendor/bin/hvdcp_opti|ab1b0ff09a55fd1b66d0ef5ce6e1d0d4589b34fe
 
-# CNE - from LA.UM.9.12.r1-10800-SMxx50.0-AOSPA
+# CNE - from LA.UM.9.6.3.r1-04400-89xx.0
 -vendor/app/CACertService/CACertService.apk|b08fa7c9d2faba99547db99df908909dfc0c8e90
 -vendor/app/CneApp/CneApp.apk|f90e9b497c0bd9328e8e63120615f2704489dbbc
 -vendor/app/IWlanService/IWlanService.apk|1ae4b4155f40dcd4a78a630d4f7a1c8e29abb07b
-vendor/bin/cnd|5ae77743b1dd041edf584535b67425ddab9e8336
+vendor/bin/cnd|9073b58b10ec0e5e0af3e0f65dcc815cb2b150b9
 vendor/bin/mutualex|bd08196143d860e56eabdc299313cd0ead44880d
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -176,14 +176,14 @@ vendor/etc/default-permissions/com.qualcomm.qti.cne.xml|c63c37d067e3009735fbc54d
 vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
 vendor/etc/init/mutualex.rc|d6d6673e59abfdb53232d502842285bae8f323f1
 vendor/lib64/libcacertclient.so|264dcc7f6fa782000978f3a6c01c8bb8000c30e8
-vendor/lib64/libcne.so|6aa3739fd1f672f1bb23b8de32a3e7bf0371fd73
+vendor/lib64/libcne.so|693161958cfac54f256a5ed1e2ec0392bdb31112
 vendor/lib64/libcneapiclient.so|b0187b64da57348584c643040e6acd59ca9c88a8
 vendor/lib64/libcneoplookup.so|6573be406ad16496bdf56b11526cacaca4106820
 vendor/lib64/libcneqmiutils.so|ab880f5a5f346dd44b20b04f2b121cc00daecfd7
 vendor/lib64/libjnihelper.so|89d3dad1902f1ff42bff35ee8c3294df846ce709
 vendor/lib64/libwms.so|cc43229a844dab0205bfcbb0f1f51d434272791d
-vendor/lib64/libwqe.so|bfd3b32d2a7e8b57925688ecf9fb758371f50a09
-vendor/lib64/libxml.so|aa98dbb727ac9ccca19884343427e9a687c55f9f
+vendor/lib64/libwqe.so|4ae892dfb16d6d0d337e7811696ac11a86e4838d
+vendor/lib64/libxml.so|f9b20632e9fd324810caf865faea93e4ff505d91
 vendor/lib64/vendor.qti.data.factory@2.0.so|09961663a9b91856548d67f1c00338a70e24f33e
 vendor/lib64/vendor.qti.data.factory@2.1.so|cb29ecbbd7a28e33ae4746cfa01c56efe15cc592
 vendor/lib64/vendor.qti.data.factory@2.2.so|981ec12a17727f0e3390b054302d7779e6b60f31
