@@ -609,15 +609,15 @@ vendor/lib64/vendor.qti.ims.factory@1.0.so|7488d6797be4ee2850086c36f916aa169616a
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|9b508d0b89626472105661c8ac434cac648418c6
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|e55ff59de6c1d847c8f3773247de5352221f9511
 
-# Radio - IMS - from  LA.UM.9.6.2.r1-04100-89xx.0
-vendor/bin/ims_rtp_daemon|a0a0e2986c9d3e817551fe9a10c1b464dd5a9dc1
+# Radio - IMS - from LA.UM.9.6.3.r1-04400-89xx.0
+vendor/bin/ims_rtp_daemon|3fbadd85fa6057fbc165f149d65854d76c9e5eef
 vendor/lib64/com.qualcomm.qti.uceservice@2.0.so|1faf0fe6af1f6b71c8c812c35cb37e110777a8b2
 vendor/lib64/com.qualcomm.qti.uceservice@2.1.so|2e8adbfac57d37698e111b706f1fde665d588f70
 vendor/lib64/com.qualcomm.qti.uceservice@2.2.so|92da73814ba6c14502d5f43862339f7061e11894
-vendor/lib64/lib-imsvtcore.so|47d945bf976134fdb57b4f44dd73a1347f2bf421
+vendor/lib64/lib-imsvtcore.so|30bcb9198a51d1e9e27b8d3ac05a0e4ebd31fec5
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|58fcc2a491826ecc3ca3cbc72b20f46c9108e0a4
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|5d71371d3eb10481f95a018481dfb62a5929110d
-vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|31759a9a5f6045b1139d00103044d9b55607eac1
+vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|068b2a657e3451dbcc6e84009c9cac0bfb6aaac0
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|25517caf74691b812320b46b477a3f4161cc1bcf
 
 # Radio - QCRIL - from LA.UM.9.12.r1-10800-SMxx50.0-AOSPA
@@ -885,8 +885,8 @@ system_ext/lib64/vendor.qti.latency@2.1.so|b9cca8c1db1782dc16032fec12f8ae024c24a
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|60af440aae61fcd6939af56a0b94d9b9ef5ebd55
 
-# Radio - Telephony - from  LA.UM.9.6.2.r1-04100-89xx.0
--system_ext/framework/qti-telephony-common.jar|8c99640be5b9b9ee886bfc450b6923a33eb2fd8b
+# Radio - Telephony - from LA.UM.9.6.3.r1-04400-89xx.0
+-system_ext/framework/qti-telephony-common.jar|28d0778f42b97b0cdd2a9c9b1b718bf7320817b6
 system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so|c1ab8dc5de956caf0060a33922d402d0ec6c732e
 system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so|f86a87d2fef32f7176d697a7aad346b8c5be3d00
 system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so|620f8c0af756a026ac78750adc4fe0590c4e9d45
@@ -894,11 +894,15 @@ system_ext/lib64/lib-imscamera.so|2b7c94e2d070d71841e558393c881d13affb7438
 system_ext/lib64/lib-imsvideocodec.so|ac7089da1c9824e367b1137be8bf4e496974f245
 system_ext/lib64/lib-imsvt.so|205b5d3b47e9a990a950e05d5a7f2d006871d3cf
 system_ext/lib64/lib-imsvtextutils.so|0aadc4666d6e68429fcdd2db4bff1bf48538a155
-system_ext/lib64/lib-imsvtutils.so|d3a1a558664700fed951b8c63c900efcfc680830
+system_ext/lib64/lib-imsvtutils.so|dfc5cf0854fe38c191a53ec3bd2a322d05d85567
 system_ext/lib64/libimscamera_jni.so|217354bfe6d1e1736572218b1a34468937544350
 system_ext/lib64/libimsmedia_jni.so|c804adc4d7224303a53f6270e6c1cf9319008a05
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|7157c5a2852683df0a50a588a09b7e5a0c5688da
--system_ext/priv-app/ims/ims.apk|230315f38d7c2fc6c9d83bb6ec1f8f59254090cf
+-system_ext/priv-app/ims/ims.apk|bcb4343b282907a642ae888bfaede63e9159894e
+
+# Radio - TFTP - from LA.UM.9.6.3.r1-04400-89xx.0
+vendor/bin/tftp_server|791ed02bb98d7601601ae586f85dc4a986451e10
+vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
 
 # Latency - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|c4e96e63eef450f1f2c1db6c96654d7cb940d2ae
@@ -959,10 +963,6 @@ vendor/etc/ssg/tz_whitelist.json|c0dc4f4cfee20db5993eb5142e362cba7dfaecd6
 vendor/lib64/libminkdescriptor.so|6f8f11ee5cbfa618eed75d317adf734550a51182
 vendor/lib64/libnative-api.so|09c8712984bb02dbf43c536e7835a7307b5115e8
 vendor/lib64/libqcbor.so|c7db76dc44c7f492791aa27a18a0a5035f21b062
-
-# TFTP - from LA.UM.9.12.r1-10800-SMxx50.0
-vendor/bin/tftp_server|f096a58e024ef6d1ad78da49388c183747d384da
-vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
 
 # WiFi - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/bin/cnss-daemon|78ebe10a7a46e22d36864406b23f4164b522115c
