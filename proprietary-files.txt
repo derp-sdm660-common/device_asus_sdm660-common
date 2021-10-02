@@ -230,9 +230,9 @@ vendor/lib64/libqdi.so|d11c90db7c898cd0130a72709107c591844e7bbc
 vendor/lib64/libqdp.so|f6601d8d50f167968163d4781207dfc0db17fcf0
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|eb39e483719c84589d5f4defd2b96659feb00410
 
-# Diag - from LA.UM.9.12.r1-10800-SMxx50.0-AOSPA
-vendor/lib/libdiag.so|d950b69bb284ac8ab96046c6ef97875995a358fb
-vendor/lib64/libdiag.so|62ac168cc9074dc768bbdce7b3d48f3a65d71995
+# Diag - from LA.UM.9.6.3.r1-04400-89xx.0
+vendor/lib/libdiag.so|de6da6f0de0867e03f5c5463089ee6eeb82ff6a9
+vendor/lib64/libdiag.so|35818f0fe8086752bd7292fb6be83dfa90d5de55
 
 # DPM - from LA.UM.9.12.r1-10800-SMxx50.0-AOSPA
 vendor/bin/dpmQmiMgr|3ef49da6492ae9dec3d56ef3ff55c890c6a53d13
