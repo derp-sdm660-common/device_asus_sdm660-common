@@ -888,20 +888,18 @@ vendor/bin/pd-mapper|39d55e771fd5f59a94e9bbc94a16e93b8b325ba2
 vendor/lib64/libpdmapper.so|ad1638f4461d6c133b066305d567f156775c9471
 vendor/lib64/libpdnotifier.so|4c3437efb631e34e653bed2722b0ea97a29d3f82
 
-# Sensors
-vendor/bin/sensors.qti
-vendor/lib/hw/activity_recognition.sdm660.so
-vendor/lib/hw/sensors.sdm660_64.so
-vendor/lib/libsensor1.so
-vendor/lib/libsensor_reg.so
-vendor/lib/sensors.native.so
-vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.sdm660.so
-vendor/lib64/hw/sensors.sdm660_64.so
-vendor/lib64/libsensor1.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/sensors.native.so
-vendor/lib64/sensors.ssc.so
+# Sensors - from LA.UM.9.6.3.r1-04400-89xx.0
+product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|bda110fc8102be6f88bd0e364819d15d9c0c3744
+product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|67620ca191213b83e898ee401807eb8385b0020d
+vendor/bin/sensors.qti|058b64800413634b766d760bd1134bed757f5f4f
+vendor/lib/hw/activity_recognition.sdm660.so|abb27164556460cfd4c059a3298570acc387ac61
+vendor/lib/libsensor1.so|751c72333944dbf38ab59c691bf17e921dd8bdd0
+vendor/lib/libsensor_reg.so|170c40b9b7d48c922cd3ca1a552a34311ee79799
+vendor/lib/sensor_calibrate.so|9f81f1bf43b7871555915c9d57bba16d0419af40
+vendor/lib64/hw/activity_recognition.sdm660.so|ad32fc78b016d290dfe23435f6132fd918064dd8
+vendor/lib64/libsensor1.so|aa0dd52c8ea6fc46f9237dd72406faf87a5f5bb9
+vendor/lib64/libsensor_reg.so|be00c924983a2a279f799332cf2b262da9af78d1
+vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
 
 # Soter - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|a6ea6031c27889797b96fe29ba100924b79fe3fb
