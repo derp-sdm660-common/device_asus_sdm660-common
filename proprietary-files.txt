@@ -512,6 +512,9 @@ vendor/bin/pm-service|d41dabf5e4830f93b267d668d37e72aedae48163
 vendor/lib/libperipheral_client.so|6a95436d0d649fff0a48a4662a0781330e723ae1
 vendor/lib64/libperipheral_client.so|18796ea27c31bd39946f23f2b4173bafd26d9216
 
+# Power-off alarm - from LA.UM.9.6.3.r1-04400-89xx.0
+-sbin/charger:bin/chargeonlymode|664dfa548b81cac348f1699222160f8d2b4d247c
+
 # QCC VND HAL - from LA.UM.9.12.r1-10800-SMxx50.0
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|7fc59359c94e5977cb549e4f9d56062bb9ecbc84
 vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc|afeb332a4750a11587658fcc9a75a27f63bbccdd
